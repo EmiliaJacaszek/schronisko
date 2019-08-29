@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log('app.js loaded');
 
   const $navbar = $('.fixed-top');
 
@@ -56,7 +55,6 @@ $(document).ready(function () {
 
     $('.flashMessage').hide();
     $('.submit').click(function(){
-      console.log($('.flashMessage'));
     $('.flashMessage').html('Twoja wiadomość została wysłana').fadeIn('slow').fadeToggle(5000);
 
 

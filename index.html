@@ -33,10 +33,10 @@
             <a class="nav-link active" href="adopt.html">Zwierzęta do adopcji</a>
           </li>
           <li class="nav-item" href="#">
-            <a class="nav-link active" href="#">Pomoc i Wolontariat</a>
+            <a class="nav-link active" href="volunteering.html">Pomoc i Wolontariat</a>
           </li>
           <li class="nav-item" href="#">
-            <a class="nav-link active" href="contact.html">Kontakt</a>
+            <a class="nav-link active" href="#contact-form">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -125,19 +125,19 @@
              <div class="card-container">
               <div class="card">
                <h5 class="card-title">Odwiedź schronisko</h5>
-               <i class="fas fa-bone" style="color: rgb(30, 255, 143);"></i>
+               <i class="fas fa-bone" style="color: rgb(23, 162, 184);"></i>
 
                 </div>
               <div class="card">
                 <h5 class="card-title">Zobacz psa</h5>
 
-                <i class="fas fa-dog" style="color: rgb(30, 255, 143);"></i>
+                <i class="fas fa-dog" style="color: rgb(23, 162, 184);"></i>
 
               </div>
 
               <div class="card">
                 <h5 class="card-title">Zabierz psa do domu</h5>
-                <i class="fas fa-home" style="color: rgb(30, 255, 143);"></i>
+                <i class="fas fa-home" style="color: rgb(23, 162, 184);"></i>
               </div>
                   </div>
 
@@ -150,7 +150,36 @@
   </main>
 
   <footer class="footer bg-dark">
-    <div class="text-center text-white py-3">© 2019 Copyright: </div>
+      <section id = "contact-form" class="contact">
+
+
+          <form class="contact-us">
+            <h2 class="contact-h2 responsive font-weight-bold text-center">Skontaktuj się z nami</h2>
+            <div class="row">
+              <div class="col-12 form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                placeholder="Email">
+          
+              </div>
+          
+              <div class="col-12 form-group">
+              <label for="subject" class="">Tytuł</label>
+              <input type="text" id="subject" name="subject" class="form-control" placeholder="Tytuł">
+              </div>
+          
+              <div class="col-12 form-group">
+              <label for="message">Twoja wiadomość</label>
+              <textarea type="text" id="message" name="message" rows="2" class="form-control" placeholder="Treść"></textarea>
+              </div>
+          
+             <button type="button" disabled="true" class="btn btn-secondary submit btn-length">Submit</button>
+            </div>
+          </form>
+          
+          
+          </section>
+    <div class="text-center text-white py-3"> 2019 Copyright Schronisko dla zwierząt </div>
   </footer>
 
   <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"

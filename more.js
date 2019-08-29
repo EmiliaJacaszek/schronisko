@@ -1,11 +1,8 @@
 $(document).ready(function () {
-  console.log('app.js loaded');
-
-
 
 const dogs = {
   1: {
-    imgs: ['img/tom.jpg', 'img/dream.jpg', 'img/shiba.jpg', 'img/gizmo.jpg'],
+    imgs: ['img/tom1.jpg', 'img/tom2.jpg', 'img/tom3.jpg', 'img/tom4.jpg'],
     name: 'Tom',
     breed: 'Lorem Ipsum',
     sex: 'unknown',
@@ -13,7 +10,7 @@ const dogs = {
   
  },
   2: {
-    imgs: ['img/shiba.jpg' ,'img/tom.jpg', 'img/gizmo.jpg', 'img/dream.jpg'],
+    imgs: ['img/shiba1.jpg' ,'img/shiba2.jpg', 'img/shiba3.jpg', 'img/shiba4.jpg'],
     name: 'Shiba',
     breed: 'Lorem Ipsum',
     sex: 'male',
@@ -21,7 +18,7 @@ const dogs = {
   },
 
   3: {
-    imgs: ['img/gizmo.jpg', 'img/tom.jpg', 'img/shiba.jpg', 'img/dream.jpg'],
+    imgs: ['img/gizmo1.jpg', 'img/gizmo2.jpg', 'img/gizmo3.jpg', 'img/gizmo4.jpg'],
     name: 'Gizmo',
     breed:'Lorem Ipsum',
     sex: 'female',
@@ -29,7 +26,7 @@ const dogs = {
   },
 
   4: {
-    imgs:['img/dream.jpg', 'img/tom.jpg', 'img/gizmo.jpg', 'img/shiba.jpg'],
+    imgs:['img/dream1.jpg', 'img/dream2.jpg', 'img/dream3.jpg', 'img/dream4.jpg'],
     name: 'Dream',
     breed: 'Lorem Ipsum',
     sex: 'male',
@@ -100,7 +97,7 @@ function dogAnimation() {
   setTimeout(() => {
     dogImg.removeClass('dog-changing');
     dogImg.addClass('dog-changed');
-  }, 1000);
+  }, 500);
 }
 
 

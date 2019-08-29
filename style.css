@@ -1,0 +1,314 @@
+/* GENERAL */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Navigation */
+
+.navbar-dark {
+  background-color: #223950;
+  transition: height 0.5s;
+}
+
+.navbar-dark .nav-item {
+  background-color: #223950;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link {
+  text-align: center;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  color: #00ffa2;
+}
+
+.logo {
+  height: 50px;
+}
+
+
+/*  HEADER */
+
+.header-img {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.header-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-description h1 {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+/* ABOUT */
+
+
+.subtitle {
+  color: #223950;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  padding-top: 5rem;
+  text-align: center;
+  border-bottom: #00ffa2 solid 0.5px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16);
+  height: 120px;
+  width: 250px;
+
+}
+
+.card:not(:last-child)::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f063";
+  font-size: 2rem;
+  position: absolute;
+  left: 111px;
+  bottom: -50px;
+  color: #00ffa2;
+  margin-right: -22px;
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.fas {
+  text-align: center;
+  margin-top: 2px;
+}
+
+/*ADOPT*/
+
+.adopt-title{
+color: #00ffa2;
+display: flex;
+justify-content: center;
+padding: 40px;
+}
+
+.pupils {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.dog {
+  width: 400px;
+  border: 3px #00ffa2 ridge;
+  margin: 5%;
+  box-shadow: -2px 6px 38px 0px rgba(78, 77, 78, 0.42);
+}
+
+.dog-picture {
+  height: 270px;
+  width: 350px;
+  margin: 40px 20px;
+  padding-left: 5px;
+}
+
+.adopt-text {
+  margin: 10px 30px 40px 30px;
+  text-align: center;
+}
+
+
+/*MORE*/
+
+.img-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.dog-img {
+  width: 300px;
+  height: 300px;
+  transition: opacity 1s ease-in-out;
+}
+
+.dog-changing {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dog-changed {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dog-description {
+  margin: 20px 20px 20px 20px;
+}
+
+.prev {
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+.next {
+  margin: 20px auto;
+  padding-top: 10%;
+}
+
+.prev:hover {
+  color: #21a970;
+  cursor: pointer;
+}
+
+.next:hover {
+  color: #21a970;
+  cursor: pointer;
+}
+
+
+.dots {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.dots-hover:hover {
+ cursor: pointer;
+ color: #21a970;
+}
+
+.fa-circle {
+  margin-left: 1.5rem;
+}
+
+.all-description {
+  margin: 20px 40px 40px 40px;
+
+}
+
+.all-info {
+  margin: 0px 30px 10px 30px;
+  text-align: center;
+}
+
+
+/*FORM*/
+.contact {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.contact-h2 {
+  margin-bottom: 2rem;
+  color: #223950;
+}
+
+.contact-us {
+  width: 100%;
+  padding: 0 4rem;
+  display: block;
+  margin: 5rem auto;
+
+}
+
+.btn-length{
+  padding: 0.75rem 2.5rem;
+  font-size: 20px;
+}
+.submit {
+  border-radius: 10px;
+  box-shadow: 0px 4px 5px 0px #223950;
+  background-color: #17a2b8;
+}
+
+.flashMessage {
+display: flex;
+justify-content: center;
+margin: 0 100px;
+padding: 0,80%;
+background-color: #17a2b8;
+color: #fff;
+border-radius: 15px;
+text-align: center;
+margin-top: 1%;
+}
+
+/* MEDIA */
+
+@media (min-width: 768px) {
+  .contact-us {
+    max-width: 600px;
+    padding: 4rem 1rem;
+    border: thin #3a5570 solid;
+    box-shadow: -2px 6px 38px 0px rgba(56, 55, 56, 0.42);
+    display: block;
+  }
+
+  .navbar-dark {
+    height: 100px;
+  }
+
+  .navbar-scroll {
+    height: 80px;
+  }
+
+  .submit {
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .header-img {
+    height: calc(100vh - 70px);
+    height: -moz-calc(100vh - 70px);
+    height: -webkit-calc(100vh - 70px);
+  }
+
+  .card-container {
+    flex-direction: row;
+  }
+
+  .card:not(:last-child)::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    top: 44px;
+    right: -45px;
+    left: unset;
+    bottom: unset;
+  }
+}

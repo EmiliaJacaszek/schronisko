@@ -242,6 +242,7 @@ padding: 40px;
 
 
 /*FORM*/
+
 .contact {
   margin: 3rem 1rem;
   padding-top: 4rem;
@@ -293,6 +294,7 @@ border-radius: 15px;
 text-align: center;
 margin-top: 1%;
 }
+
 .contact-data{
   display: flex;
   flex-wrap: wrap;
